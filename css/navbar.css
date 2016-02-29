@@ -1,0 +1,17 @@
+.navbar-default {
+  border: none;
+  font-weight: 500;
+  margin-bottom: 0;
+  background-color: #EACD65;
+  transition: 0.1s all linear;
+}
+/*
+.navbar__active-link {
+  border-bottom: 2px solid #83AFA6;
+}
+.navbar__active-link a {
+  color: #83AFA6!important;
+} */
+.navbar-default a {
+  color: #333!important;
+}

@@ -1,0 +1,10 @@
+.header__main {
+  background-color: #EACD65;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.header__name {
+  letter-spacing: 10px;
+  font-weight: 600;
+  font-size: 50px;
+}
