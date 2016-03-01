@@ -15,3 +15,28 @@
 .navbar-default a {
   color: #333!important;
 }
+.navbar-default a:hover {
+  color: #666!important;
+}
+/* toggle button */
+.navbar-default .navbar-toggle {
+  background: none;
+  border: none;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:active,
+.navbar-default .navbar-toggle:focus {
+  background: none;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #333;
+}
+.navbar-default .navbar-toggle:hover .icon-bar,
+.navbar-default .navbar-toggle:active .icon-bar,
+.navbar-default .navbar-toggle:focus .icon-bar {
+  background-color: #666;
+}
+/* responsive navbar */
+.navbar-default .navbar-collapse {
+  border: none;
+}

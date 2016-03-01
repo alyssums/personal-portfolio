@@ -1,3 +1,18 @@
 .skills__main {
   background-color: #83AFA6;
+  color: #fff;
+  font-weight: 600;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.skills__container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+.skills__column {
+  flex: 0 0 200px;
+}
+.skills__column ul {
+  padding-left: 20px;
 }

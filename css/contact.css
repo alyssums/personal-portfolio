@@ -1,0 +1,34 @@
+/* contact links */
+.contact__links {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+#hexagon__link {
+  fill:  #DD4747;
+  stroke-dasharray: 200;
+  stroke-width: 2px;
+  stroke-dashoffset: -200;
+  transition: stroke-width 1s, stroke-dashoffset 1s, stroke-dasharray 1s;
+}
+.social-link {
+  color: #2C3E50;
+  font-size: 30px;
+  font-family: "FontAwesome";
+}
+.social-link:hover,
+.social-link:focus {
+  text-decoration: none;
+}
+.social-link:hover #hexagon__link {
+  stroke: #DD4747;
+  fill: #fff;
+  stroke-dashoffset: 0;
+}
+.social-link:hover svg text {
+  fill:  #DD4747;
+  transition: 0.3s all ease-in-out;
+}
+svg text {
+  fill: #fff;
+  font-size: 30px;
+}

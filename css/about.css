@@ -5,11 +5,10 @@
 .about__paragraph {
   font-size: 16px;
   line-height: 2em;
-  margin-bottom: 0;
 }
-/*
+/* profile photo */
 .profile-picture {
-  margin: 10px auto 0;
+  margin: -100px auto 0;
   width: 200px;
   position: relative;
 }
@@ -41,4 +40,4 @@
 #hexagon__border2 {
   stroke: #DD4747;
   fill: transparent;
-}*/
+}
