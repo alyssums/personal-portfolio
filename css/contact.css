@@ -1,7 +1,6 @@
 /* contact links */
 .contact__links {
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 #hexagon__link {
   fill:  #DD4747;
@@ -26,7 +25,6 @@
 }
 .social-link:hover svg text {
   fill:  #DD4747;
-  transition: 0.3s all ease-in-out;
 }
 svg text {
   fill: #fff;

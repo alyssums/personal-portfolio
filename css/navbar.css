@@ -40,3 +40,7 @@
 .navbar-default .navbar-collapse {
   border: none;
 }
+/* navbar brand */
+.navbar-brand--hide {
+  display: none;
+}
