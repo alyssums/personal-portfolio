@@ -11,7 +11,7 @@ gulp.task('scripts', function() {
 });
 
 gulp.task('styles', function() {
-  gulp.src('css/main.css')
+  gulp.src('css/*.css')
     .pipe(concat('styles.min.css'))
     .pipe(nano())
     .pipe(gulp.dest('dist'));
