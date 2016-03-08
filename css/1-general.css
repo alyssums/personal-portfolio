@@ -2,6 +2,15 @@
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css);
 body {
   font-family: 'Raleway', sans-serif!important;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+.content {
+  flex: 1;
+}
+.footer {
+  padding-bottom: 10px;
 }
 .footer__copyright {
   font-size: 12px;

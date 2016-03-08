@@ -13,7 +13,10 @@ gulp.task('scripts', function() {
 gulp.task('styles', function() {
   gulp.src('css/*.css')
     .pipe(concat('styles.min.css'))
-    .pipe(nano())
+    .pipe(nano({
+      autoprefixer:{ browsers: ['last 2 versions'], add: true },
+      discardComments: {removeAll: true}
+    }))
     .pipe(gulp.dest('dist'));
 });
 

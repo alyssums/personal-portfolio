@@ -21,13 +21,13 @@ $(document).ready(function() {
   }
 
   // close responsive nav menu on click
+  var navMenu = $('#navbar__main');
+  var navBrand = $('.navbar-brand--hide');
   function closeNav(){
-    var navMenu = $("#navbar__main");
-    navMenu.on("click", "a", null, function () {
-      navMenu.collapse('hide');
-    });
+    navMenu.collapse('hide');
   }
 
-  closeNav();
+  navMenu.on('click', 'a', null, closeNav);
+  navBrand.on('click', closeNav);
 
 });

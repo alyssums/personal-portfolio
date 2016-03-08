@@ -1,14 +1,14 @@
-.skills__main {
-  background-color: #83AFA6;
-  color: #fff;
-  font-weight: 600;
+.skills {
   padding-top: 50px;
   padding-bottom: 50px;
 }
-.skills__container {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-between;
+#skills__sidebar {
+  background-color: #83AFA6;
+  color: #fff;
+  font-weight: 700;
+}
+#skills__main {
+
 }
 .skills__column {
   flex: 0 0 200px;
