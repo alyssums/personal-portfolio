@@ -8,8 +8,8 @@ $(document).ready(function() {
   // nav color change and navbar-brand add on scroll
   function navChange() {
     var scrollInit = 0;
-    var about = $('.about__main');
-    var offset = about.offset();
+    var content = $('.content');
+    var offset = content.offset();
     scrollInit = $(this).scrollTop();
     if (scrollInit > offset.top) {
       $('.navbar-default').css('background-color', 'white');

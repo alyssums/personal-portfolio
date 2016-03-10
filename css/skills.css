@@ -1,18 +1,118 @@
-.skills {
+/* header */
+.skills__header {
+  background-color: #EACD65;
   padding-top: 50px;
   padding-bottom: 50px;
 }
-#skills__sidebar {
-  background-color: #83AFA6;
-  color: #fff;
+.skills__header-title {
+  letter-spacing: 10px;
+  font-weight: 600;
+  font-size: 50px;
+  margin-bottom: 0;
+}
+/* main content */
+.skills__content {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+/* sidebar */
+#skills__content--sidebar {
   font-weight: 700;
 }
-#skills__main {
+.skills__content--sidebar-title {
+  position: relative;
+}
+.skills__content--sidebar-title:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  border-bottom: 2px solid #eee;
+}
+.skills__content--sidebar-title span {
+  display: inline-block;
+  position: relative;
+  padding-right: 20px;
+  background-color: #fff;
+  text-transform: uppercase;
+}
+.skills__content--sidebar-item {
+  display: inline-flex;
+  flex-flow: row wrap;
+  color: #fff;
+  background-color: #83AFA6;
+  border-radius: 2px;
+  padding: 5px 10px;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  border-bottom: 2px solid rgba(0,0,0,0.3);
+  overflow: hidden;
+  letter-spacing: 2px;
+}
+.skills__content--sidebar-item:hover {
+  color: #fff;
+  text-decoration: none;
+}
+/* main section */
+#skills__content--main {
 
 }
-.skills__column {
-  flex: 0 0 200px;
+.skills__title {
+  margin-bottom: 20px;
+  position: relative;
 }
-.skills__column ul {
-  padding-left: 20px;
+.skills__title span {
+  display: inline-block;
+  position: relative;
+  padding-right: 20px;
+  background-color: #fff;
+}
+.skills__title:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  border-bottom: 2px solid #DD4747;
+}
+@media (min-width: 768px) {
+  .skills__title {
+    margin-top: 7px;
+  }
+}
+@media (max-width: 767px) {
+  .skills__title {
+    margin-top: 30px;
+  }
+}
+/* education */
+.skills__education-list {
+  padding-left: 0;
+  list-style: none;
+}
+.skills__education-list li {
+  padding-bottom: 20px;
+}
+.skills__education-school {
+  display: flex;
+  justify-content: space-between;
+}
+/* experience */
+.skills__experience-list {
+  padding-left: 0;
+  list-style: none;
+}
+.skills__experience-list li {
+  padding-bottom: 20px;
+}
+.skills__experience-title {
+  display: flex;
+  justify-content: space-between;
+}
+.skills__experience-details {
+  list-style: disc;
+}
+.skills__experience-details li {
+  padding-bottom: 5px;
 }
